@@ -10,7 +10,6 @@
   // Currently selected team for use in Gameplay phase
   let selectedTeam: Team | null = null;
 
-  // Current phase of site
   let phase: Phases = Phases.TeamSelection;
 
   // These two functions are passed into articleSelector as the onComplete prop
